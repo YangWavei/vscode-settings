@@ -91,7 +91,7 @@
   "window.nativeTabs": true, // this is great, macOS only
   "window.title": "${rootName}", // this make tabs more readable
   "window.titleBarStyle": "custom",
-  "extensions.autoUpdate": "false",
+  "extensions.autoUpdate": "onlyEnabledExtensions",
   // ========== Extension configs ========== 
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
@@ -165,18 +165,9 @@
     "yaml",
     "toml"
   ],
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false,
-    "jsonc": true
-  },
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
   "css.lint.hexColorLength": "ignore",
-  "githubIssues.workingIssueFormatScm": "#${issueNumberLabel}",
-  "githubPullRequests.fileListLayout": "tree",
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
@@ -232,7 +223,6 @@
   // I only use Prettier for manually formatting
   "prettier.enable": false,
   "prettier.printWidth": 200,
-  "prettier.semi": false,
   "prettier.singleQuote": true,
   // ========== File Nesting ==========
   // this might not be up to date with the repo, please check yourself
@@ -327,5 +317,82 @@
     "editor.selectionHighlightBackground": "#264f7873",
     "editor.selectionBackground": "#264f7873",
     "editorSuggestWidget.selectedBackground": "#1677ff85",
+  },
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+  "typescript.tsserver.web.projectWideIntellisense.suppressSemanticErrors": true,
+  "tailwindCSS.emmetCompletions": true,
+  //todo-tree 标签配置  标签兼容大小写字母(很好的功能!!!)
+  "todo-tree.regex.regex": "((%|#|//|<!--|^\\s*\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
+  "todo-tree.general.tags": [
+    "TODO", //添加自定义的标签成员,将在下面实现它们的样式
+    "BUG",
+    "tag",
+    "done",
+    "mark",
+    "test",
+    "XXX"
+  ],
+  "todo-tree.regex.regexCaseSensitive": false,
+  "todo-tree.highlights.defaultHighlight": {
+    //如果相应变量没赋值就会使用这里的默认值
+    "foreground": "#000", //字体颜色
+    "background": "#c9c552", //背景色
+    "icon": "check", //标签样式 check 是一个对号的样式
+    "rulerColour": "#c9c552", //边框颜色
+    "type": "tag", //填充色类型  可在TODO TREE 细节页面找到允许的值
+    "iconColour": "#c9c552" //标签颜色
+  },
+  "todo-tree.highlights.customHighlight": {
+    //todo 		需要做的功能
+    "TODO": {
+      "icon": "alert", //标签样式
+      "background": "#c9c552", //背景色
+      "rulerColour": "#c9c552", //外框颜色
+      "iconColour": "#c9c552" //标签颜色
+    },
+    //bug		必须要修复的BUG
+    "BUG": {
+      "background": "#eb5c5c",
+      "icon": "bug",
+      "rulerColour": "#eb5c5c",
+      "iconColour": "#eb5c5c"
+    },
+    //tag		标签
+    "tag": {
+      "background": "#38b2f4",
+      "icon": "tag",
+      "rulerColour": "#38b2f4",
+      "iconColour": "#38b2f4",
+      "rulerLane": "full"
+    },
+    //done		已完成
+    "done": {
+      "background": "#5eec95",
+      "icon": "check",
+      "rulerColour": "#5eec95",
+      "iconColour": "#5eec95"
+    },
+    //mark     	标记一下
+    "mark:": {
+      "background": "#f90",
+      "icon": "note",
+      "rulerColour": "#f90",
+      "iconColour": "#f90"
+    },
+    //test		测试代码
+    "test": {
+      "background": "#df7be6",
+      "icon": "flame",
+      "rulerColour": "#df7be6",
+      "iconColour": "#df7be6"
+    },
+    //update  	优化升级点
+    "XXX": {
+      "background": "#d65d8e",
+      "icon": "versions",
+      "rulerColour": "#d65d8e",
+      "iconColour": "#d65d8e"
+    }
   },
 }
