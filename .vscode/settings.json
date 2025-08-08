@@ -324,11 +324,8 @@
     "list.hoverForeground": "#ffffff",
     "list.hoverBackground": "#5d5d5d7b",
     "panel.background": "#1c1c1c",
-    "editor.selectionHighlightBackground": "#264f7898",
-    "editor.selectionBackground": "#264f7898",
+    "editor.selectionHighlightBackground": "#264f7873",
+    "editor.selectionBackground": "#264f7873",
     "editorSuggestWidget.selectedBackground": "#1677ff85",
-    // "tab.activeBackground": "#333333",
-    // "tab.activeForeground": "#ffd76d",
-    // "tab.activeBorderTop": "#f8e57a",
   },
 }
