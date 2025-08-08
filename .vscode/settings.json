@@ -317,6 +317,7 @@
     "editor.selectionHighlightBackground": "#264f7873",
     "editor.selectionBackground": "#264f7873",
     "editorSuggestWidget.selectedBackground": "#1677ff85",
+    "tab.activeBackground": "#3d3d3d8f"
   },
   "javascript.format.semicolons": "insert",
   "typescript.format.semicolons": "insert",
