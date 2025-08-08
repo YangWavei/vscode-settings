@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    // antfu's extensions, ofc :P
+    "antfu.iconify",
+    "antfu.unocss",
+    "antfu.vite",
+    "antfu.where-am-i",
+    "antfu.open-in-github-button",
+    // themes & icons
+    "antfu.icons-carbon",
+    "antfu.theme-vitesse",
+    "file-icons.file-icons",
+    // life savers!
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    // up to you extentions
+    /* -------------------------------------------------------------------------- */
+    "github.vscode-github-actions",
+  ]
+}
