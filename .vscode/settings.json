@@ -40,7 +40,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "never"
+    "source.organizeImports": "explicit"
   },
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -396,4 +396,7 @@
       "iconColour": "#d65d8e"
     }
   },
+  "Lingma.cloudModelEnable": false,
+  "Lingma.cloudModelAutoTriggerGenerateLength": "disable",
+  "Lingma.methodQuickOperation": false,
 }
