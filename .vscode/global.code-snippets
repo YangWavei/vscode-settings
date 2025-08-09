@@ -89,5 +89,24 @@
       "</tr>",
       "</table>",
     ],
-  }
+  },
+  "export-function": {
+    "scope": "javascript,typescript,tsx,jsx,typescriptreact,javascriptreact",
+    "prefix": "eaf",
+    "body": [
+      "export function ${1:name}(${2:params}:${3:type}) {",
+      "  $0",
+      "}"
+    ],
+    "description": "Export a function"
+  },
+  "define-variable": {
+    "scope": "javascript,typescript,tsx,jsx,typescriptreact,javascriptreact",
+    "prefix": "cna",
+    "body": [
+      "const ${1:name} = ${2:value};",
+      "$0"
+    ],
+    "description": "Define a variable"
+  },
 }
