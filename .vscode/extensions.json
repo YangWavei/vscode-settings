@@ -6,6 +6,10 @@
     "antfu.vite",
     "antfu.where-am-i",
     "antfu.open-in-github-button",
+    "antfu.goto-alias",
+    "antfu.smart-clicks",
+    "antfu.browse-lite",
+    "vitest.explorer",
     // themes & icons
     "antfu.icons-carbon",
     "antfu.theme-vitesse",
@@ -14,8 +18,43 @@
     "dbaeumer.vscode-eslint",
     "usernamehw.errorlens",
     "streetsidesoftware.code-spell-checker",
-    // up to you extentions
-    /* -------------------------------------------------------------------------- */
+    // language
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "lokalise.i18n-ally",
+    // git  
     "github.vscode-github-actions",
+    "mhutchie.git-graph",
+    "donjayamanne.githistory",
+    "fabiospampinato.vscode-open-in-github",
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github",
+    // todo
+    "Gruntfuggly.todo-tree",
+    // common
+    "techer.open-in-browser",
+    "bierner.color-info",
+    "stackbreak.comment-divider",
+    "formulahendry.auto-close-tag",
+    "vunguyentuan.vscode-css-variables",
+    "christian-kohler.path-intellisense",
+    "kisstkondoros.vscode-gutter-preview",
+    "xabikos.javascriptsnippets",
+    "crystal-spider.jsdoc-generator",
+    "bradlc.vscode-tailwindcss",
+    "chakrounanas.turbo-console-log",
+    "vue.volar",
+    // AI
+    "alibaba-cloud.tongyi-lingma",
+    // Path 
+    "christian-kohler.path-intellisense",
+    // photoShot
+    "pnp.polacode",
+    // office
+    "cweijan.vscode-office",
+    // Smart Import
+    "wix.vscode-import-cost",
+    "mikestead.dotenv",
+    // up to you extentions
+    // ...
   ]
 }
