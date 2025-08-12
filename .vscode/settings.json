@@ -46,7 +46,6 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
   // "files.eol": "\n",// unix ( macOS or linux only)
-  "files.insertFinalNewline": true,
   "files.simpleDialog.enable": true,
   "git.autofetch": true,
   "git.confirmSync": false,
