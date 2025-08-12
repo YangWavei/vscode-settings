@@ -1,12 +1,12 @@
 YangWavei's VS Code Settings
 
-[`.vscode/settings.json`](./.vscode/settings.json)`<br>`
-[`.vscode/extensions.json`](./.vscode/extensions.json)`<br>`
+[`.vscode/settings.json`](./.vscode/settings.json) <br>
+[`.vscode/extensions.json`](./.vscode/extensions.json)<br>
 [`.vscode/global.code-snippets`](./.vscode/global.code-snippets)
 
-<center><b>Preview</b></center>
+**Preview**
 
-<hr>
+---
 
 **Dark Mode**
 
