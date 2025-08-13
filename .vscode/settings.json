@@ -319,8 +319,8 @@
     // "tab.activeBackground": "#3d3d3d8f"
     // "panel.background": "#1c1c1c",
   },
-  "javascript.format.semicolons": "remove",
-  "typescript.format.semicolons": "remove",
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
   "typescript.tsserver.web.projectWideIntellisense.suppressSemanticErrors": true,
   "tailwindCSS.emmetCompletions": true,
   //todo-tree 标签配置  标签兼容大小写字母(很好的功能!!!)
