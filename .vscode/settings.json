@@ -13,6 +13,7 @@
   "editor.lineNumbers": "interval",
   "editor.renderWhitespace": "none",
   "window.autoDetectColorScheme": true,
+  "editor.minimap.autohide": true,
   "workbench.colorTheme": "Vitesse Dark",
   "workbench.editor.tabActionLocation": "left",
   "workbench.fontAliasing": "antialiased",
