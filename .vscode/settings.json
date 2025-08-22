@@ -60,6 +60,8 @@
   // "files.eol": "\n",// unix ( macOS or linux only)
   "files.simpleDialog.enable": true,
   "files.trimTrailingWhitespace": true,
+  "files.autoSave": "afterDelay",
+  "files.trimFinalNewlines": true,
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
