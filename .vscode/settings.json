@@ -25,6 +25,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
+  "editor.smoothScrolling": true,
   // workbench config
   "workbench.colorCustomizations": {
     "focusBorder": "#1677ff",
@@ -36,7 +37,7 @@
     "editor.selectionBackground": "#264f7873",
     "editorSuggestWidget.selectedBackground": "#1677ff85",
   },
-  // ========== Editor ========== 
+  // ========== Editor ==========
   "debug.onTaskErrors": "debugAnyway",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
@@ -58,6 +59,7 @@
   "explorer.compactFolders": false,
   // "files.eol": "\n",// unix ( macOS or linux only)
   "files.simpleDialog.enable": true,
+  "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
@@ -67,6 +69,7 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontWeight": "300",
   "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.tabs.enabled": true,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
@@ -97,13 +100,13 @@
     "**/CHANGELOG*": true,
     "**/LICENSE*": true,
   },
-  // ==========  Global Level Config, needs to put in User Settings ========== 
+  // ==========  Global Level Config, needs to put in User Settings ==========
   "window.dialogStyle": "custom",
   "window.nativeTabs": true, // this is great, macOS only
   "window.title": "${rootName}", // this make tabs more readable
   "window.titleBarStyle": "custom",
   "extensions.autoUpdate": "onlyEnabledExtensions",
-  // ========== Extension configs ========== 
+  // ========== Extension configs ==========
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
   "errorLens.enabledDiagnosticLevels": [
