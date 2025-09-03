@@ -1,5 +1,5 @@
 {
-  // ========== Visuals ==========
+  /* ---------------------------------Visuals------------------------------ */
   "editor.fontSize": 18,
   "editor.formatOnSave": true,
   "editor.cursorSmoothCaretAnimation": "on",
@@ -11,7 +11,7 @@
   "editor.guides.bracketPairs": "active",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.lineNumbers": "interval",
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "boundary",
   "window.autoDetectColorScheme": true,
   "editor.minimap.autohide": true,
   "workbench.colorTheme": "Vitesse Dark",
@@ -34,22 +34,15 @@
     "panel.border": "#12a0d8",
     "list.hoverForeground": "#ffffff",
     "list.hoverBackground": "#5d5d5d7b",
-    "editor.selectionHighlightBackground": "#264f7873",
-    "editor.selectionBackground": "#264f7873",
-    "editorSuggestWidget.selectedBackground": "#1677ff85",
   },
   // ========== Editor ==========
   "debug.onTaskErrors": "debugAnyway",
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-  "editor.find.addExtraSpaceOnTop": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.multiCursorModifier": "ctrlCmd",
   "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.stickyScroll.enabled": true,
-  "editor.hover.sticky": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
     "source.fixAll.eslint": "explicit",
@@ -58,7 +51,7 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
-  // "files.eol": "\n",// unix ( macOS or linux only)
+  "files.eol": "\n", // unix ( macOS or linux only)
   "files.simpleDialog.enable": true,
   "files.trimTrailingWhitespace": true,
   "files.autoSave": "afterDelay",
@@ -68,12 +61,17 @@
   "git.enableSmartCommit": true,
   "git.untrackedChanges": "separate",
   "scm.diffDecorationsGutterWidth": 2,
+  /* ---------------------------------terminal config----------------------------------------- */
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontWeight": "300",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.fontLigatures.enabled": true,
+  /* --------------------------------workbench------------------------------------------ */
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
@@ -111,7 +109,7 @@
   "extensions.autoUpdate": "onlyEnabledExtensions",
   // ========== Extension configs ==========
   "emmet.showSuggestionsAsSnippets": true,
-  "emmet.triggerExpansionOnTab": false,
+  "emmet.triggerExpansionOnTab": true,
   "errorLens.enabledDiagnosticLevels": [
     "warning",
     "error"
@@ -231,9 +229,6 @@
       "stash": true
     }
   },
-  "i18n-ally.autoDetection": false,
-  "i18n-ally.displayLanguage": "en",
-  "i18n-ally.ignoredLocales": [],
   "iconify.annotations": true,
   "iconify.inplace": true,
   "svg.preview.mode": "svg",
@@ -316,11 +311,4 @@
     "vite.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, contentlayer.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, histoire.config.*, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, playwright.config.*, postcss.config.*, puppeteer.config.*, rspack.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, uno.config.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
     "vue.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, contentlayer.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, histoire.config.*, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, playwright.config.*, postcss.config.*, puppeteer.config.*, rspack.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, uno.config.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*"
   },
-  // terminal config
-  "terminal.integrated.accessibleViewPreserveCursorPosition": true,
-  "terminal.integrated.copyOnSelection": true,
-  "terminal.integrated.fontSize": 18,
-  "terminal.integrated.lineHeight": 1.2,
-  "terminal.integrated.mouseWheelZoom": true,
-  "terminal.integrated.fontLigatures.enabled": true,
 }

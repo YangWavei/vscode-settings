@@ -2,14 +2,10 @@
   "recommendations": [
     // antfu's extensions, ofc :P
     "antfu.iconify",
-    // "antfu.unocss",
-    // "antfu.vite",
     "antfu.where-am-i",
     "antfu.open-in-github-button",
     "antfu.goto-alias",
     "antfu.smart-clicks",
-    // "antfu.browse-lite",
-    // "vitest.explorer",
     // themes & icons
     "antfu.icons-carbon",
     "antfu.theme-vitesse",
@@ -20,16 +16,13 @@
     "streetsidesoftware.code-spell-checker",
     // language
     "ms-ceintl.vscode-language-pack-zh-hans",
-    // "lokalise.i18n-ally",
-    // git  
+    // git
     "github.vscode-github-actions",
     "mhutchie.git-graph",
     "donjayamanne.githistory",
     "fabiospampinato.vscode-open-in-github",
     "eamodio.gitlens",
     "github.vscode-pull-request-github",
-    // todo
-    // "Gruntfuggly.todo-tree",
     // common
     "techer.open-in-browser",
     "bierner.color-info",
@@ -45,7 +38,7 @@
     "vue.volar",
     // AI
     "alibaba-cloud.tongyi-lingma",
-    // Path 
+    // Path
     "christian-kohler.path-intellisense",
     // photoShot
     "pnp.polacode",
