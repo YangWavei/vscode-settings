@@ -229,6 +229,8 @@
   "svg.preview.mode": "svg",
   // I only use default for manually formatting
   "prettier.enable": false,
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
   // ========== File Nesting ==========
   // this might not be up to date with the repo, please check yourself
   // https://github.com/antfu/vscode-file-nesting-config
