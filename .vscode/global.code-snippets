@@ -90,6 +90,16 @@
       "</table>",
     ],
   },
+  "name-a-function": {
+    "scope": "javascript,typescript,tsx,jsx,typescriptreact,javascriptreact",
+    "prefix": "naf",
+    "body": [
+      "function ${1:name}(${2:params}:${3:type}) {",
+      "  $0",
+      "}"
+    ],
+    "description": "Export a function"
+  },
   "export-function": {
     "scope": "javascript,typescript,tsx,jsx,typescriptreact,javascriptreact",
     "prefix": "eaf",
