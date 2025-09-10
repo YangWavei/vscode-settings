@@ -27,9 +27,7 @@
     "techer.open-in-browser",
     "bierner.color-info",
     "stackbreak.comment-divider",
-    "formulahendry.auto-close-tag",
     "vunguyentuan.vscode-css-variables",
-    "christian-kohler.path-intellisense",
     "kisstkondoros.vscode-gutter-preview",
     "xabikos.javascriptsnippets",
     "crystal-spider.jsdoc-generator",
@@ -38,8 +36,6 @@
     "vue.volar",
     // AI
     "alibaba-cloud.tongyi-lingma",
-    // Path
-    "christian-kohler.path-intellisense",
     // photoShot
     "pnp.polacode",
     // office
