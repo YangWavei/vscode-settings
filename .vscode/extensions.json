@@ -24,6 +24,7 @@
     "eamodio.gitlens",
     "github.vscode-pull-request-github",
     // common
+    "formulahendry.auto-close-tag",
     "techer.open-in-browser",
     "bierner.color-info",
     "stackbreak.comment-divider",
