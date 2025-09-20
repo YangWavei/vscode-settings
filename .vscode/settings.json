@@ -13,6 +13,11 @@
   "editor.lineNumbers": "interval",
   "editor.renderWhitespace": "boundary",
   "editor.smoothScrolling": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
   "window.autoDetectColorScheme": true,
   "editor.minimap.autohide": true,
   "workbench.fontAliasing": "antialiased",
