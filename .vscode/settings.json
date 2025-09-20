@@ -1,7 +1,6 @@
 {
   /* ---------------------------------Visuals------------------------------ */
   "editor.fontSize": 18,
-  "editor.formatOnSave": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.mouseWheelZoom": true,
   "editor.fontLigatures": true,
@@ -39,7 +38,7 @@
     "list.hoverForeground": "#ffffff",
     "list.hoverBackground": "#5d5d5d7b",
   },
-/* ------------------------------------Editor-------------------------------------- */
+  /* ------------------------------------Editor-------------------------------------- */
   "debug.onTaskErrors": "debugAnyway",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.tabSize": 2,
@@ -109,7 +108,7 @@
   "extensions.autoUpdate": "onlyEnabledExtensions",
   // ========== Extension configs ==========
   "emmet.showSuggestionsAsSnippets": true,
-  "emmet.triggerExpansionOnTab": true,
+  "emmet.triggerExpansionOnTab": false,
   "errorLens.enabledDiagnosticLevels": [
     "warning",
     "error"
@@ -234,8 +233,6 @@
   "svg.preview.mode": "svg",
   // I only use default for manually formatting
   "prettier.enable": false,
-  "javascript.format.semicolons": "remove",
-  "typescript.format.semicolons": "remove",
   // ========== File Nesting ==========
   // this might not be up to date with the repo, please check yourself
   // https://github.com/antfu/vscode-file-nesting-config
