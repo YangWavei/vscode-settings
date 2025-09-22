@@ -1,6 +1,7 @@
 {
   /* ---------------------------------Visuals------------------------------ */
   "editor.fontSize": 18,
+  "editor.formatOnSave": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.mouseWheelZoom": true,
   "editor.fontLigatures": true,
