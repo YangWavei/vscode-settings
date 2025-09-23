@@ -16,6 +16,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
     "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
     "source.organizeImports": "never"
   },
   "window.autoDetectColorScheme": true,
@@ -179,6 +180,12 @@
     "jsonc",
     "yaml",
     "toml"
+  ],
+  "stylelint.validate": [
+    "css",
+    "less",
+    "scss",
+    "vue"
   ],
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
