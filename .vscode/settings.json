@@ -12,6 +12,7 @@
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.lineNumbers": "interval",
   "editor.renderWhitespace": "boundary",
+  "editor.smoothScrolling": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
     "source.fixAll.eslint": "explicit",
